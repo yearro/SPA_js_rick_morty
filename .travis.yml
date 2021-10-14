@@ -1,13 +1,13 @@
 languaje: node_js
 cache:
-	directories:
-		- ~/.npm
+  directories:
+    - ~/.npm
 node_js:
   - "14.17.0"
 git:
-	depth: 3
+  depth: 3
 script:
-	- yarn build
+  - yarn build
 deploy:
   provider: pages
   edge: true
