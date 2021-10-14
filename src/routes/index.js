@@ -1,8 +1,8 @@
-import Home from '../pages/home';
-import Personaje from '../pages/Personaje';
-import Error404 from '../pages/Error404';
-import getHash from '../utils/getHash';
-import resolveRoutes from '../utils/resolveRoutes';
+import Home from './../pages/home';
+import Personaje from './../pages/Personaje';
+import Error404 from './../pages/Error404';
+import getHash from './../utils/getHash';
+import resolveRoutes from './../utils/resolveRoutes';
 
 const routes = {
   '/': Home,
