@@ -1,0 +1,33 @@
+{
+  "name": "spa_js_rick_morty",
+  "version": "1.0.0",
+  "description": "SPA de ejemplo con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearro/SPA_js_rick_morty.git"
+  },
+  "keywords": [
+    "SPA"
+  ],
+  "author": "Yeri Armenta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yearro/SPA_js_rick_morty/issues"
+  },
+  "homepage": "https://github.com/yearro/SPA_js_rick_morty#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
